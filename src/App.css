@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .MuiDrawer-paper {
+    width: 200px;
+  }
+  main {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .MuiDrawer-paper {
+    width: 100%;
+    position: relative;
+  }
+  main {
+    margin-left: 0;
+  }
+}
